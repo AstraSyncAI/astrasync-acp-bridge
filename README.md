@@ -93,8 +93,8 @@ During the preview phase:
 ## Links
 
 - 🌐 [AstraSync Platform](https://astrasync.ai)
-- 📚 [API Documentation](https://docs.astrasync.ai)
-- 💬 [Discord Community](https://discord.gg/astrasync)
+- 📚 [API Documentation](https://github.com/AstraSyncAI/astrasync-api)
+- 💬 [Discord Community](https://discord.gg/E8wUgf2E)
 - 🐛 [Report Issues](https://github.com/AstraSyncAI/astrasync-acp-bridge/issues)
 
 ## License
