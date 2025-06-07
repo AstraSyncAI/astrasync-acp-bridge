@@ -74,7 +74,7 @@ program
       console.log('\n' + chalk.yellow('🚀 Next steps:'));
       console.log('   1. Share your agent ID:', chalk.cyan(result.astraSync.agentId));
       console.log('   2. View on web:', chalk.cyan(`https://astrasync.ai/agent/${result.astraSync.agentId}`));
-      console.log('   3. When ready, upgrade at:', chalk.cyan('https://astrasync.ai/signup'));
+      console.log('   3. When ready, upgrade at:', chalk.cyan('https://www.astrasync.ai/alphaSignup'));
       
     } catch (error) {
       spinner.fail(chalk.red('Registration failed'));
