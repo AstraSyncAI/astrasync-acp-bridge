@@ -1,0 +1,28 @@
+{
+  "id": "beeai-test-agent",
+  "name": "BeeAI Test Agent",
+  "description": "A test agent from IBM's BeeAI platform demonstrating ACP compliance",
+  "version": "1.0.0",
+  "capabilities": [
+    "task-execution",
+    "peer-to-peer",
+    "async-messaging"
+  ],
+  "skills": [
+    {
+      "id": "data-analysis",
+      "name": "Data Analysis",
+      "description": "Analyzes structured and unstructured data"
+    },
+    {
+      "id": "report-generation",
+      "name": "Report Generation",
+      "description": "Creates comprehensive reports"
+    }
+  ],
+  "authentication": {
+    "schemes": ["oauth2.1"],
+    "endpoint": "https://auth.beeai.dev/token"
+  },
+  "endpoint": "https://agents.beeai.dev/test-agent"
+}

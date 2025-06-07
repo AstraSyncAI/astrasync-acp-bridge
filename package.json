@@ -1,0 +1,23 @@
+{
+  "name": "@astrasync/acp-bridge",
+  "version": "0.1.0",
+  "description": "Register IBM ACP agents with AstraSync's blockchain-based identity platform",
+  "main": "src/bridge.js",
+  "type": "module",
+  "bin": {
+    "astrasync-acp": "./src/cli.js"
+  },
+  "scripts": {
+    "register": "node src/cli.js register",
+    "test": "node src/healthcheck.js"
+  },
+  "keywords": ["astrasync", "acp", "ibm", "agents", "blockchain", "identity"],
+  "author": "AstraSync",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "ora": "^8.0.1",
+    "commander": "^11.1.0",
+    "node-fetch": "^3.3.2"
+  }
+}
