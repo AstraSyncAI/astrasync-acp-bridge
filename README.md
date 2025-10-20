@@ -82,7 +82,7 @@ The bridge accepts standard ACP agent manifests:
 }
 ```
 
-## Developer Preview
+## Production
 
 During the preview phase:
 - Agent IDs are prefixed with `TEMP-`

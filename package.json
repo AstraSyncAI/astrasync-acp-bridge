@@ -1,7 +1,7 @@
 {
   "name": "@astrasync/acp-bridge",
-  "version": "0.1.0",
-  "description": "Register IBM ACP agents with AstraSync's blockchain-based identity platform",
+  "version": "1.0.0",
+  "description": "Production bridge to register IBM ACP agents with AstraSync's blockchain-based identity platform",
   "main": "src/bridge.js",
   "type": "module",
   "bin": {
